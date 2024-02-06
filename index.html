@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.png">
+</head>
+<body> 
+
+    <main class="main container">
+      <header class="cabecalho">
+        <img src="img/logo.png" width="100" height="100" alt="logo Alura">
+        <h1>Decodificador de texto</h1>
+      </header>
+
+        <div class="container-input">
+        <div class="input">
+            <textarea id="input-texto" placeholder="Digite o seu texto aqui..."></textarea>
+            <p>Atenção! Apenas letras minúsculas e sem acentos.</p>
+        </div>
+
+        <div id="output">
+            <img src="img/imagem.png" alt="imagem">
+            <h2>Sua mensagem aparecerá aqui</h2>
+            <span>Digite um texto que você deseja criptografar ou descriptografar.</span>
+        </div>
+        </div>
+
+        <div class="buttons">
+            <div class="container-btn">
+                <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            </div>
+        </div>
+ </main>
+
+    <footer class="rodape">
+        <h3>Desenvolvido por Marcele Souza para a formação de Iniciante em Programação T6-ONE
+        <strong>Oracle Next Education</strong> em parceria com a <strong>Alura</strong></h3>
+        <div class="icons">
+            <a href="https://github.com/devsouzamah"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/marcele-s-dos-anjos-de-souza-124a51298/"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+        
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
