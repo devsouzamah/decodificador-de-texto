@@ -24,7 +24,7 @@ document.getElementById('output').innerHTML = '<textarea readonly id="input-text
 }
 
 function copiar(){
-    var textoCop =document.getElementById('#input-texto');
+    var textoCop = document.getElementById('input-texto');
 
     textoCop.select();
     document.execCommand('copy');
